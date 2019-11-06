@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPossibleSubstring", "LongestPossibleSubstring\LongestPossibleSubstring.csproj", "{E7763324-2024-470E-BACB-097C58DDF233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSquare", "MaxSquare\MaxSquare.csproj", "{3AF5C66F-C546-4F06-937A-42100FF565CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainForestQAChallenge", "RainForestQAChallenge\RainForestQAChallenge.csproj", "{A7841AD1-7060-4400-8F1E-B736F6F2E2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockMerchant", "SockMerchant\SockMerchant.csproj", "{7E33BB45-0A9C-4BAE-BBE8-5D1A70C58ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpingClouds", "JumpingClouds\JumpingClouds.csproj", "{E8EB0836-B99F-4898-AE27-42A5989055A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatedStrings", "RepeatedStrings\RepeatedStrings.csproj", "{6410AA06-3F8F-4C46-9E51-CC3BA1204174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7763324-2024-470E-BACB-097C58DDF233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7763324-2024-470E-BACB-097C58DDF233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7763324-2024-470E-BACB-097C58DDF233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7763324-2024-470E-BACB-097C58DDF233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF5C66F-C546-4F06-937A-42100FF565CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF5C66F-C546-4F06-937A-42100FF565CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF5C66F-C546-4F06-937A-42100FF565CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF5C66F-C546-4F06-937A-42100FF565CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7841AD1-7060-4400-8F1E-B736F6F2E2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7841AD1-7060-4400-8F1E-B736F6F2E2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7841AD1-7060-4400-8F1E-B736F6F2E2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7841AD1-7060-4400-8F1E-B736F6F2E2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E33BB45-0A9C-4BAE-BBE8-5D1A70C58ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E33BB45-0A9C-4BAE-BBE8-5D1A70C58ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E33BB45-0A9C-4BAE-BBE8-5D1A70C58ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E33BB45-0A9C-4BAE-BBE8-5D1A70C58ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EB0836-B99F-4898-AE27-42A5989055A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EB0836-B99F-4898-AE27-42A5989055A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EB0836-B99F-4898-AE27-42A5989055A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EB0836-B99F-4898-AE27-42A5989055A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6410AA06-3F8F-4C46-9E51-CC3BA1204174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6410AA06-3F8F-4C46-9E51-CC3BA1204174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6410AA06-3F8F-4C46-9E51-CC3BA1204174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6410AA06-3F8F-4C46-9E51-CC3BA1204174}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {862273E6-DED2-454F-9E35-045CA35B77F4}
+	EndGlobalSection
+EndGlobal
