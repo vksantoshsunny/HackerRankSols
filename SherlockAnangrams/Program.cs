@@ -53,10 +53,6 @@ class Solution
             {
                 continue;
             }
-            else if(hash[key] ==2)
-            {
-                count++;
-            }
             else
             {
                 count = count + ((hash[key] * (hash[key] - 1) )/ 2);

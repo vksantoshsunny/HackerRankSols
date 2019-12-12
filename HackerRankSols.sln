@@ -27,11 +27,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayManipulation", "ArrayM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewYearChaos", "NewYearChaos\NewYearChaos.csproj", "{C7D91E77-CC4F-4DB5-B230-5BB3A69EBAA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote", "RansomNote\RansomNote.csproj", "{6B31BB1D-7947-46AA-A3D4-B21D1EC97D20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RansomNote", "RansomNote\RansomNote.csproj", "{6B31BB1D-7947-46AA-A3D4-B21D1EC97D20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoStrings", "TwoStrings\TwoStrings.csproj", "{D30B4FBA-D42F-4210-ABA6-1940D27022B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoStrings", "TwoStrings\TwoStrings.csproj", "{D30B4FBA-D42F-4210-ABA6-1940D27022B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountTriplets", "CountTriplets\CountTriplets.csproj", "{7161BDA4-1386-4DE8-B075-2EEEDEB1972A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountTriplets", "CountTriplets\CountTriplets.csproj", "{7161BDA4-1386-4DE8-B075-2EEEDEB1972A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SherlockAnangrams", "SherlockAnangrams\SherlockAnangrams.csproj", "{B8C6C2A1-7E06-4EBB-BB79-2C4AF53C75A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountValleys", "CountValleys\CountValleys.csproj", "{A8E5AB32-7ED4-4504-AC71-4353BB686373}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{7161BDA4-1386-4DE8-B075-2EEEDEB1972A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7161BDA4-1386-4DE8-B075-2EEEDEB1972A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7161BDA4-1386-4DE8-B075-2EEEDEB1972A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C6C2A1-7E06-4EBB-BB79-2C4AF53C75A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C6C2A1-7E06-4EBB-BB79-2C4AF53C75A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C6C2A1-7E06-4EBB-BB79-2C4AF53C75A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C6C2A1-7E06-4EBB-BB79-2C4AF53C75A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E5AB32-7ED4-4504-AC71-4353BB686373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E5AB32-7ED4-4504-AC71-4353BB686373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E5AB32-7ED4-4504-AC71-4353BB686373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E5AB32-7ED4-4504-AC71-4353BB686373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
