@@ -33,17 +33,39 @@ class Solution
 
 
 
-        Console.WriteLine(stringList.Length);
-
-
-        for (int i = 0; i < stringList.Length; i++)
+        foreach (var str in stringList)
         {
-
+            var keyString = string.Concat(str.OrderBy(x => x));
+            if (hash.ContainsKey(keyString))
+            {
+                hash[keyString]++;
+            }
+            else
+            {
+                hash[keyString] = 1;
+            }
         }
 
 
+        foreach (var key in hash.Keys)
+        {
+            if (hash[key] <= 1)
+            {
+                continue;
+            }
+            else if(hash[key] ==2)
+            {
+                count++;
+            }
+            else
+            {
+                count = count + ((hash[key] * (hash[key] - 1) )/ 2);
 
-        return hash.Keys.Where(x => hash[x] > 1).Count();
+            }
+        }
+
+
+        return count;
 
     }
 
