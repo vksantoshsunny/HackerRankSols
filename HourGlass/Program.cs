@@ -4,7 +4,7 @@ class Solution
 {
 
     // Complete the hourglassSum function below.
-    static int hourglassSum(int[][] arr)
+   /* static int hourglassSum(int[][] arr)
     {
         for (int i = 1; i <= 4; i++)
         {
@@ -15,7 +15,7 @@ class Solution
         }
 
 
-    }
+    }*/
 
     static void Main(string[] args)
     {
@@ -28,7 +28,7 @@ class Solution
             arr[i] = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
         }
 
-        int result = hourglassSum(arr);
+        //int result = hourglassSum(arr);
 
     }
 }
