@@ -41,7 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrequencyQueries", "Frequen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorts", "Sorts", "{87DB6E98-248F-4AA2-9CF4-01811230BA8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkAndToys", "MarkAndToys\MarkAndToys.csproj", "{DD6E3122-E0F1-4E5A-8694-1BF4894BAE21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkAndToys", "MarkAndToys\MarkAndToys.csproj", "{DD6E3122-E0F1-4E5A-8694-1BF4894BAE21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{453F6CFB-2191-4271-A918-274D627C66CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D Array", "2D Array\2D Array.csproj", "{2246374E-E002-47CB-BB21-9FC2D1BBEBB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,12 +129,17 @@ Global
 		{DD6E3122-E0F1-4E5A-8694-1BF4894BAE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD6E3122-E0F1-4E5A-8694-1BF4894BAE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD6E3122-E0F1-4E5A-8694-1BF4894BAE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2246374E-E002-47CB-BB21-9FC2D1BBEBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2246374E-E002-47CB-BB21-9FC2D1BBEBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2246374E-E002-47CB-BB21-9FC2D1BBEBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2246374E-E002-47CB-BB21-9FC2D1BBEBB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DD6E3122-E0F1-4E5A-8694-1BF4894BAE21} = {87DB6E98-248F-4AA2-9CF4-01811230BA8F}
+		{2246374E-E002-47CB-BB21-9FC2D1BBEBB9} = {453F6CFB-2191-4271-A918-274D627C66CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {862273E6-DED2-454F-9E35-045CA35B77F4}
