@@ -22,14 +22,18 @@ class Solution
 
         for (int i = arr.Length - 1; i >= 0; i--)
         {
-            if (arr[i] != i + 1)
+            var position = i + 1;
+            var valueInPosition = arr[i];
+            var valueInPreviousPosition = arr[i - 1];
+            var valueInPreviousTwoPosition = arr[i - 2];
+            if (valueInPosition != position) // check if value is equal to position...
             {
-                if (((i - 1) >= 0) && arr[i - 1] == (i + 1))
+                if (((i - 1) >= 0) && valueInPreviousPosition == position)
                 {
                     swapCount++;
                     swap(arr, i, i - 1);
                 }
-                else if ((i - 2) >= 0 && arr[i - 2] == (i + 1))
+                else if ((i - 2) >= 0 && valueInPreviousTwoPosition == position)
                 {
                     swapCount += 2;
                     swap(arr, i - 2, i - 1);
