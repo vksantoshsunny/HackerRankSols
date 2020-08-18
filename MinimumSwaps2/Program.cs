@@ -21,19 +21,19 @@ class Solution
         int count = 0;
         for (int i = 0; i < arr.Length; i++)
         {
-            if (arr[i] == i + 1)
+            var position = i + 1;
+            var currentValue = arr[i];
+            if (currentValue == position)
             {
                 continue;
             }
-            for (int j = i+1; j < arr.Length; j++)
+
+            do
             {
-                if (arr[j] == i+1)
-                {
-                    swap(arr,i,j);
-                    count++;
-                    break;
-                }
-            }
+                swap(arr, i, arr[i] - 1);
+                count++;
+            } while (arr[i] != i + 1);
+
         }
 
         return count;
@@ -52,9 +52,9 @@ class Solution
 
 
         int n = Convert.ToInt32(Console.ReadLine());
-        int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
-            ;
 
+        int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
+        ;
         int res = minimumSwaps(arr);
 
 
